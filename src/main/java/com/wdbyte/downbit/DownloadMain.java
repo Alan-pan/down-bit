@@ -50,6 +50,9 @@ public class DownloadMain {
     }
 
     public static void main(String[] args) throws Exception {
+        //测试入参
+        args=new String[1];
+        args[0]="https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.29.2.1.exe";
         //LogUtils.DEBUG = true;
         if (args == null || args.length == 0 || args[0].trim().length() == 0) {
             LogUtils.info("没有传入任何下载链接");
